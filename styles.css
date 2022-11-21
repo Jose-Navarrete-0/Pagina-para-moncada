@@ -229,7 +229,7 @@ html
 
 .entrada2-down
 {
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
@@ -304,3 +304,127 @@ html
     background-size: contain;
     border-radius: 50%;
 }
+
+.dos-partes
+{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border-top: 1px solid white; */
+}
+.dos-partes .left
+{
+    width: 100%;
+    /* border-right: 1px solid white; */
+    
+}
+.dos-partes .right
+{
+    width: 50%;
+}
+
+.right p
+{
+    margin-left: 40px;
+}
+
+.video
+{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.video h2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.video iframe
+{
+    margin-left: calc(50% - 280px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-container
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #323232;
+    display: flex;
+}
+.footer-container .left,
+.footer-container .right
+{
+    width: 50%;
+    height: 20px;
+    display: flex;
+}
+.footer-container .left ul
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+.footer-container .right ul
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+.footer-container .right a
+{
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.footer-container .right .ig
+{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3955/3955024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.footer-container .right .tw
+{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3670/3670151.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container .right .fc
+{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968764.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
